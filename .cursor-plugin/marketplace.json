@@ -1,24 +1,19 @@
 {
-  "name": "cursor-plugin-starters",
+  "name": "fluxresume-cursor-mcp",
   "owner": {
-    "name": "Your Org",
-    "email": "plugins@example.com"
+    "name": "FluxResume",
+    "email": "support@fluxresume.io"
   },
   "metadata": {
-    "description": "Starter marketplace template for Cursor plugins",
-    "version": "0.1.0",
+    "description": "FluxResume Cursor plugin — AI-powered job tracking, job search, and career goal management via MCP.",
+    "version": "1.0.0",
     "pluginRoot": "plugins"
   },
   "plugins": [
     {
-      "name": "starter-simple",
-      "source": "./plugins/starter-simple",
-      "description": "Minimal plugin with rules and skills only"
-    },
-    {
-      "name": "starter-advanced",
-      "source": "./plugins/starter-advanced",
-      "description": "Full-featured plugin with rules, skills, agents, commands, hooks, and MCP"
+      "name": "fluxresume",
+      "source": "./plugins/fluxresume",
+      "description": "Connects Cursor to the FluxResume MCP server for job tracking, job search, and career goal management."
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "name": "fluxresume",
+  "displayName": "FluxResume AI Agent",
+  "version": "1.0.0",
+  "description": "Connects Cursor to the FluxResume MCP server — AI-powered job tracking, job search, and daily career goal management.",
+  "author": {
+    "name": "FluxResume",
+    "email": "support@fluxresume.io"
+  },
+  "license": "MIT",
+  "keywords": ["fluxresume", "job-tracker", "job-search", "mcp", "career", "resume"],
+  "logo": "assets/logo.png"
+}

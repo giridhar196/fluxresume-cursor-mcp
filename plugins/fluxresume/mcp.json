@@ -1,0 +1,18 @@
+{
+  "inputs": [
+    {
+      "id": "fluxresume_api_key",
+      "type": "promptString",
+      "description": "Your FluxResume MCP API key — generate one in FluxResume → Settings → AI Agent",
+      "password": true
+    }
+  ],
+  "mcpServers": {
+    "fluxresume": {
+      "url": "https://api.fluxresume.io/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:fluxresume_api_key}"
+      }
+    }
+  }
+}
