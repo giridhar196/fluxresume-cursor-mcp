@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Right wing (light blue, behind) -->
+  <ellipse cx="57" cy="61" rx="35" ry="17" transform="rotate(18 57 61)"
+    fill="#7ECEF0" stroke="#1B3F6E" stroke-width="4.5"/>
+
+  <!-- Left wing (bright blue, in front) -->
+  <ellipse cx="37" cy="45" rx="16" ry="41" transform="rotate(-33 37 45)"
+    fill="#29ABE2" stroke="#1B3F6E" stroke-width="4.5"/>
+
+  <!-- Large sparkle -->
+  <path d="M85,10 L87,17 L94,19 L87,21 L85,28 L83,21 L76,19 L83,17 Z"
+    fill="#29ABE2"/>
+
+  <!-- Small sparkle -->
+  <path d="M75,4 L76.5,8.5 L81,10 L76.5,11.5 L75,16 L73.5,11.5 L69,10 L73.5,8.5 Z"
+    fill="#7ECEF0"/>
+</svg>
