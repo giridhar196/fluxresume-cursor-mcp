@@ -9,7 +9,7 @@
   ],
   "mcpServers": {
     "fluxresume": {
-      "url": "https://api.fluxresume.io/mcp",
+      "url": "http://localhost:5000/mcp",
       "headers": {
         "Authorization": "Bearer ${input:fluxresume_api_key}"
       }
